@@ -30,8 +30,7 @@ export default function ChooseUs(){
   return(
     <div className="">
       <HeroFooter/>
-      <div className="bg-white
-       text-[#161c3b] p-8 md:p-16 min-h-screen">
+      <div className="bg-[#161c3b] text-white p-8 md:p-16 min-h-screen">
       <p className="flex items-center gap-2 pt-4 font-semibold"><TbSlashes className="text-[#3b73fb] text-2xl"/>Why Choose Us</p>
       <div className="md:flex-row flex-col flex items-center justify-between ">
       <h2 className="text-5xl font-bold w-full md:w-[50%]">Why Trust Us for Your IT needs</h2>
