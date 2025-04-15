@@ -82,7 +82,7 @@ export default function Header(){
           navlinks.map((navlink) =>{
             return(
               <nav>
-          <Link href={navlink.href} onClick={} className="hover:text-blue-600">{navlink.title}</Link>
+          <Link href={navlink.href} className="hover:text-blue-600">{navlink.title}</Link>
         </nav>
             )
           })
