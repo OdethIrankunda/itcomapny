@@ -12,7 +12,7 @@ export default function Footer (){
   return(
   <div className="p-8 md:p-16 text-[#161c3b] min-h-screen w-screen flex flex-col items-center justify-center">
   <p className="flex items-center gap-2 pt-4 font-semibold"><TbSlashes className="text-[#3b73fb] text-2xl"/>Our News Letter</p>
-  <h2 className="md:text-4xl text-3xl font-bold w-full md:w-[50%]">Subscribe for<span className="text-[#3b73fb] ">Expert IT Tips and Special Offers</span></h2>
+  <h2 className="md:text-4xl text-3xl font-bold w-full md:w-[50%]">Subscribe for <span className="text-[#3b73fb] ">Expert IT Tips and Special Offers</span></h2>
   <div className="flex items-center justify-between gap-4 md:flex-row flex-col pb-8 md:pb-16">
     <div className="flex justify-between items-center py-2 px-4 gap-2 rounded-full border border-gray-200"> 
     <MdOutlineEmail className="text-[#3b73fb] bg-gray-200 p-1 w-6 h-6 rounded-full"/>
@@ -21,7 +21,7 @@ export default function Footer (){
   </div>
   <div className="bg-[#161c3b] text-white w-full min-h-full p-8 md:p-16 ">
     <div className="flex items-center justify-between pb-8">
-    <h2 className="md:text-4xl text-3xl font-bold w-full md:w-[50%]">Let's<span className="text-[#3b73fb] ">Connect</span>There</h2>
+    <h2 className="md:text-4xl text-3xl font-bold w-full md:w-[50%]">Let's <span className="text-[#3b73fb] ">Connect</span> There</h2>
     <a href="#" className="text-white bg-[#3b73fb] py-2 px-4 rounded-full text-base flex items-center gap-2">Contact Us</a>
     </div>
     <hr className="text-[#5d709e]"/>

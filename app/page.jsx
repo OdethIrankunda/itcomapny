@@ -1,7 +1,9 @@
 import Header from "@/components/header";
 import Hero from "@/components/hero";
-import About from "./about/page";
-import Services from "./services/page";
+import About from "@/components/about";
+
+
+import Services from "@/components/services";
 import WorkProcess from "@/components/work-process";
 import ChooseUs from "@/components/choose-us";
 import HeroFooter from "@/components/hero-footer";

@@ -16,22 +16,27 @@ import { HiBars3 } from "react-icons/hi2";
 export default function Header(){
   const navlinks = [
     {
+      id: 1,
       title:"Home",
       href: "/",
     },
     {
+      id: 2,
       title:"Services",
       href: "/services",
     },
     {
+      id: 3,
       title:"Projects",
       href: "/projects",
     },
     {
+      id: 4,
       title:"Blogs",
       href: "/blogs",
     },
     {
+      id: 1,
       title:"About Us",
       href: "/about",
     },
@@ -77,7 +82,7 @@ export default function Header(){
           navlinks.map((navlink) =>{
             return(
               <nav>
-          <Link href={navlink.href} className="hover:text-blue-600">{navlink.title}</Link>
+          <Link href={navlink.href} onClick={} className="hover:text-blue-600">{navlink.title}</Link>
         </nav>
             )
           })

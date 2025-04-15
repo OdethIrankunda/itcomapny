@@ -1,13 +1,9 @@
 
-import Header from "@/components/header";
 import Links from "@/components/links";
-import PagesHero from "@/components/pages-hero";
 import {TbSlashes } from "react-icons/tb";
 export default function About() {
   return(
     <div className="">
-      <Header/>
-      <PagesHero/>
       <div className="md:flex md:p-16 p-8 gap-8 relative">
         <div className="grid w-full md:w-[50%] grid-cols-7 gap-2 rounded-4xl h-[50%] grid-rows-2">
         <img className="h-full overflow-hidden rounded-tl-4xl col-span-4 row-span-1 object-cover border-l-4 border-l-[#3b73fb] border-t-4 border-t-[#3b73fb]" src="/images/image2.avif" alt=""/>

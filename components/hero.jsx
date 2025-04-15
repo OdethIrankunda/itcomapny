@@ -14,9 +14,9 @@ Experience The Best IT Solutions</p>
 <p className="z-100 relative text-3xl md:text-5xl font-bold">Where creativity meets cutting-edge Technology</p>
 <p className="z-100 relative">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed neque provident impedit aliquid sunt et quasi, doloremque corrupti necessitatibus hic ad magni laudantium est quidem veritatis soluta. Adipisci, eum recusandae.</p>
 <div className="flex flex-col md:flex-row items-center gap-4 z-100 relative">
-<a href="#" className="text-white bg-[#3b73fb] py-2 px-4 rounded-full text-base flex items-center gap-2">Explore More  <FaArrowRight />
+<a href="/services" className="text-white bg-[#3b73fb] py-2 px-4 rounded-full text-base flex items-center gap-2">Explore More  <FaArrowRight />
 </a>
-<a href="#" className="underline text-base">View all services </a>
+<a href="/services" className="underline text-base">View all services </a>
 </div>
 <Links/>
 </div>
